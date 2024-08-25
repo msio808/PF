@@ -1,11 +1,11 @@
-.blog-cards {
+.cards {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     margin: 2rem 0;
 }
 
-.blog-card {
+.card {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -16,7 +16,7 @@
     width: 100%;
 }
 
-.blog-card img {
+.card img {
     width: 100%;
     height: auto;
 }
@@ -36,17 +36,17 @@
     font-size: 1rem;
 }
 
-.blog-card:hover {
+.card:hover {
     transform: translateY(-5px);
 }
 
 /* Responsive Adjustments */
 @media (min-width: 768px) {
-    .blog-card {
+    .card {
         flex-direction: row;
     }
 
-    .blog-card img {
+    .card img {
         width: 40%;
         height: auto;
     }

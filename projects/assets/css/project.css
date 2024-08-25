@@ -1,32 +1,11 @@
-.project-summary h2 {
-    font-size: 1.875rem;
-    line-height: 2.5rem;
-    margin-bottom: 10px;
-}
-
-.project-summary p {
-    margin-bottom: 1.125rem;
-    line-height: 1.75;
-}
-
-.project-summary a {
-    color: #007acc;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.project-summary a:hover {
-    text-decoration: underline;
-}
-
-.project-cards {
+.cards {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
     margin: 2rem 0;
 }
 
-.project-card {
+.card {
     display: flex;
     flex-direction: column;
     background-color: #fff;
@@ -37,7 +16,7 @@
     width: 100%;
 }
 
-.project-card img {
+.card img {
     width: 100%;
     height: auto;
 }
@@ -57,7 +36,7 @@
     font-size: 1rem;
 }
 
-.project-card:hover {
+.card:hover {
     transform: translateY(-5px);
 }
 
