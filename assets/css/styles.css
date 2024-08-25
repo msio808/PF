@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nova+Square&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Space+Grotesk:wght@300..700&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    padding: .75rem;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+    line-height: inherit;
+    color: #000;
+    background-color: #FFFFFF;
+    font-family: 'Nunito', serif;
+}
+
+/* Responsive body font size */
+@media (max-width: 768px) {
+    body {
+        font-size: 1rem;
+        padding: .5rem;
+    }
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .75rem .75rem -.5rem rgba(0, 0, 0, 0.25);
+}
+
+header img {
+    width: 10rem;
+    height: auto;
+    border-radius: 100%;
+    color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive header image size */
+@media (max-width: 768px) {
+    header img {
+        width: 7rem;
+    }
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding-top: .35rem;
+    padding-bottom: .33rem;
+}
+
+/* Responsive header font size */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    padding: .5rem .5rem 01rem;
+}
+
+/* Responsive navbar layout */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar span {
+        padding: .25rem 0;
+    }
+}
+
+.navbar span {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.125rem;
+    cursor: pointer;
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar span a {
+    text-decoration: none;
+    color: #585858;
+}
+
+.navbar span:hover {
+    color: #007acc;
+    text-decoration: underline;
+}
+
+.navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 .75rem .75rem;
+    border-radius: 8px;
+    font-size: 1.125rem;
+    background-color: #fff;
+}
+
+/* Responsive main padding */
+@media (max-width: 768px) {
+    main {
+        padding: 0 .5rem .5rem;
+    }
+}
+
+.summary h2 {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    margin-bottom: 10px;
+}
+
+/* Responsive summary heading font size */
+@media (max-width: 768px) {
+    .summary h2 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+
+.summary p {
+    margin-bottom: 1.125rem;
+    line-height: 1.75;
+}
+
+/* Responsive paragraph line-height */
+@media (max-width: 768px) {
+    .summary p {
+        line-height: 1.5;
+    }
+}
+
+.summary a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.summary a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1.75rem .313rem .313rem;
+    background-color: #fff;
+}
+
+/* Responsive footer padding */
+@media (max-width: 768px) {
+    footer {
+        padding: 1.25rem .25rem .25rem;
+    }
+}
+
+footer i {
+    display: inline;
+    margin: 0 .938rem;
+}
+
+/* Responsive footer icon margin */
+@media (max-width: 768px) {
+    footer i {
+        margin: 0 .5rem;
+    }
+}
+
+footer i {
+    display: inline;
+    margin: 0 .938rem;
+}
+
+footer a i {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/*
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Nova+Square&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Space+Grotesk:wght@300..700&family=Ubuntu+Sans+Mono:ital,wght@0,400..700;1,400..700&display=swap');
+body {
+    padding: .75rem;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    font-size: 1.125rem;
+    line-height: inherit;
+    color: #000;
+    background-color: #FFFFFF;
+    font-family: 'Nunito', serif;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 .75rem .75rem -.5rem rgba(0, 0, 0, 0.25);
+}
+
+header img {
+    width: 10rem;
+    height: auto;
+    border-radius: 100%;
+    color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    padding-top: .35rem;
+    padding-bottom: .33rem;
+}
+
+.navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    padding: .5rem .5rem 01rem;
+}
+
+.navbar span {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.125rem;
+    cursor: pointer;
+    /display: inline;/
+    padding-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navbar span a {
+    text-decoration: none;
+    color: #585858;
+}
+
+.navbar span:hover {
+    color: #007acc;
+    text-decoration: underline;
+}
+
+.navbar::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main {
+    margin: 0 auto;
+    padding: 0 .75rem .75rem;
+    border-radius: 8px;
+    font-size: 1.125rem;
+    background-color: #fff;
+}
+
+.summary h2 {
+    font-size: 1.875rem;
+    line-height: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.summary p {
+    margin-bottom: 1.125rem;
+    line-height: 1.75;
+}
+
+.summary a {
+    color: #007acc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.summary a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 1.75rem .313rem .313rem;
+    background-color: #fff;
+}
+
+footer i {
+    display: inline;
+    margin: 0 .938rem;
+}
+
+footer a i {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+*/
