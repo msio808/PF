@@ -26,9 +26,15 @@
 }
 
 .carousel .cards .card .card-content a {
+    color: #007acc;
     text-decoration: none;
-    
+    font-weight: bold;
 }
+
+.carousel .cards .card .card-content a:hover {
+    text-decoration: underline;
+}
+
 .carousel .cards .card .card-content h2 {
     margin: 0 0 0.5rem 0;
     font-size: 1.5rem;
